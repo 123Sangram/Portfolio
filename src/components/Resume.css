@@ -1,0 +1,80 @@
+/* Resume.css
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+.resume-container {
+  background-color: white;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.resume-header {
+  text-align: center;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 10px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  color: #0073e6;
+}
+
+.resume-header p {
+  margin: 5px 0;
+  color: #555;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #0073e6;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-info a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.skill-summary ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skill-summary ul li {
+  margin-bottom: 5px;
+}
+
+.work-experience h3 {
+  margin-top: 10px;
+  color: #0073e6;
+}
+
+.work-experience p {
+  margin: 5px 0;
+}
+
+.education p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.about-me p {
+  margin: 5px 0;
+  font-style: italic;
+  color: #333;
+} */
