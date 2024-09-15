@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import sangram from ;
+import sangram from '../assets/sangram-high-resolution-logo-white.png';
 
 function Header() {
   return (
@@ -15,7 +15,7 @@ function Header() {
       <div className="container mx-auto p-4 relative z-10">
         <nav className="flex items-center justify-between flex-wrap">
           <img
-            src="public/sangram-high-resolution-logo-white.png"
+            src={sangram}
             alt="logo"
             className="w-24 sm:w-36 transition-transform transform hover:scale-110"
           />
