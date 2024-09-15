@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./style.css";
+import resume from '../assets/resume (4).pdf'
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PhoneCallbackIcon from "@mui/icons-material/PhoneCallback";
@@ -64,7 +65,7 @@ function Contact() {
               </a>
             </div>
             <a
-              href="public/resume (4).pdf"
+              href={resume}
               download
               className="btn btn2"
             >
