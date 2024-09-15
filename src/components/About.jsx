@@ -45,7 +45,7 @@ const About = () => {
           {/* Illustration on the left */}
           <div className="w-1/3">
             <img
-              src="src/assets/portfolioImage/11 logo.png"
+              src="public/11 logo.png"
               alt="Illustration"
               className="w-full"
             />
@@ -57,7 +57,7 @@ const About = () => {
             <div className="bg-gray-100 rounded-lg py-6 px-4 shadow-lg">
               <div className="flex justify-center pr-5">
                 <span>
-                  <img className="h-8" src="src/assets/experience.png" alt="" />
+                  <img className="h-8" src="public/experience.png" alt="" />
                 </span>{" "}
                 <h3 className="text-xl font-semibold">Experience</h3>
               </div>
@@ -70,7 +70,7 @@ const About = () => {
             <div className="bg-gray-100 rounded-lg py-6 px-4 shadow-lg">
               <div className="flex justify-center pr-5">
                 <span>
-                  <img className="h-8" src="src/assets/education.png" alt="" />
+                  <img className="h-8" src="public/education.png" alt="" />
                 </span>{" "}
                 <h3 className="text-xl font-semibold">Education</h3>
               </div>

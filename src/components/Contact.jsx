@@ -79,7 +79,7 @@ import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
+import { SiLeetcode } from "react-icons/si";
 function Contact() {
   const form = useRef();
 
@@ -88,6 +88,7 @@ function Contact() {
 
     emailjs
       .sendForm(
+        
         "service_a0s2kuc", // Replace with your EmailJS service ID
         "template_juc0ain", // Replace with your EmailJS template ID
         form.current,
@@ -119,21 +120,21 @@ function Contact() {
               6386054411
             </p>
             <div className="social-icons">
-              <a href="#">
+              {/* <a href="#">
                 <InstagramIcon />
-              </a>
-              <a href="#">
+              </a> */}
+              {/* <a href="#">
                 <FacebookIcon />
+              </a> */}
+              <a href="https://leetcode.com/u/sangramamvan/">
+                <SiLeetcode />
               </a>
-              <a href="#">
-                <TwitterIcon />
-              </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/sangram-singh-706715272/">
                 <LinkedInIcon />
               </a>
             </div>
             <a
-              href="src/assets/portfolioImage/SangramSingh_InternshalaResume (2).pdf"
+              href="public/resume (4).pdf"
               download
               className="btn btn2"
             >

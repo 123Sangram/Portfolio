@@ -30,7 +30,7 @@ function Portfolio() {
         <div className="work-list grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
           <div onClick={handleMovieLink1} className="work">
             <img
-              src="src/assets/portfolioImage/Screenshot 2024-09-13 100027.png"
+              src="public/Screenshot 2024-09-13 100027.png"
               alt="work 1"
               className="rounded-lg h-[470px]"
             />
@@ -40,7 +40,7 @@ function Portfolio() {
           </div>
           <div onClick={handleMovieLink2} className="work">
             <img
-              src="src/components/Screenshot 2024-09-05 141053.png"
+              src="public/Screenshot 2024-09-05 141053.png"
               alt="work 2"
               className="rounded-lg h-[470px]"
             />
@@ -50,7 +50,7 @@ function Portfolio() {
           </div>
           <div onClick={handleMovieLink3} className="work">
             <img
-              src="src/components/Screenshot 2024-09-05 142642.png"
+              src="public/Screenshot 2024-09-05 142642.png"
               alt="work 3"
               className="rounded-lg h-[470px]"
             />

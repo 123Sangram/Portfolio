@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import sangram from "../assets/portfolioImage/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg";
+// import sangram from ;
 
 function Header() {
   return (
@@ -8,14 +8,14 @@ function Header() {
       id="header"
       className="w-full h-screen bg-cover bg-center relative"
       style={{
-        backgroundImage: `url('../assets/portfolioImage/Untitled.png')`,
+        backgroundImage: `url('')`,
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="container mx-auto p-4 relative z-10">
         <nav className="flex items-center justify-between flex-wrap">
           <img
-            src="src/assets/portfolioImage/sangram-high-resolution-logo-white.png"
+            src="public/sangram-high-resolution-logo-white.png"
             alt="logo"
             className="w-24 sm:w-36 transition-transform transform hover:scale-110"
           />
@@ -57,7 +57,7 @@ function Header() {
           <div className="flex justify-center lg:justify-end mt-10 lg:mt-0 lg:ml-10">
             <img
               className="rounded-full h-48 w-48 sm:h-60 sm:w-60 lg:h-80 lg:w-80"
-              src="src/assets/portfolioImage/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg"
+              src="public/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg"
               alt="Sangram's Portfolio"
             />
           </div>

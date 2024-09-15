@@ -17,7 +17,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">HTML</span>
@@ -28,7 +28,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">CSS</span>
@@ -39,7 +39,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">JavaScript</span>
@@ -50,7 +50,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">React.js</span>
@@ -61,7 +61,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Tailwind CSS</span>
@@ -81,7 +81,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Git & GitHub</span>
@@ -92,7 +92,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Material-UI</span>
@@ -103,7 +103,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Express</span>
@@ -114,7 +114,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Vs Code</span>
@@ -125,7 +125,7 @@ const Service = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="h-6 sm:h-8 rounded-full"
-                  src="src/assets/portfolioImage/checkmark.png"
+                  src="public/checkmark.png"
                   alt=""
                 />
                 <span className="text-black">Node.js</span>
