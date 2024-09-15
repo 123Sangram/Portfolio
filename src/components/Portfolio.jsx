@@ -1,5 +1,7 @@
 import React from "react";
-
+import pic1 from '../assets/Screenshot 2024-09-13 100027.png'
+import pic2 from "../assets/Screenshot 2024-09-05 141053.png";
+import pic3 from "../assets/Screenshot 2024-09-05 142642.png";
 function Portfolio() {
     // handle movie website link
     const handleMovieLink1 = (movie) => {
@@ -30,7 +32,7 @@ function Portfolio() {
         <div className="work-list grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
           <div onClick={handleMovieLink1} className="work">
             <img
-              src="public/Screenshot 2024-09-13 100027.png"
+              src={pic1}
               alt="work 1"
               className="rounded-lg h-[470px]"
             />
@@ -40,7 +42,7 @@ function Portfolio() {
           </div>
           <div onClick={handleMovieLink2} className="work">
             <img
-              src="public/Screenshot 2024-09-05 141053.png"
+              src={pic2}
               alt="work 2"
               className="rounded-lg h-[470px]"
             />
@@ -50,7 +52,7 @@ function Portfolio() {
           </div>
           <div onClick={handleMovieLink3} className="work">
             <img
-              src="public/Screenshot 2024-09-05 142642.png"
+              src={pic3}
               alt="work 3"
               className="rounded-lg h-[470px]"
             />
