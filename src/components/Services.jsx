@@ -1,215 +1,142 @@
-// import React from "react";
-
-// function Services() {
-//   return (
-//     <div id="services" className="py-20 text-gray-400">
-//       <div className="container mx-auto">
-//         <h1 className="sub-title text-5xl font-bold text-white">My Services</h1>
-//         <div className="services-list grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
-//           <div className="bg-gray-800 p-10 rounded-lg transition-all transform hover:bg-pink-500 hover:translate-y-[-10px]">
-//             <i className="fa-solid fa-code text-4xl mb-6"></i>
-//             <h2 className="text-2xl font-semibold mb-4">frontend Developer</h2>
-//             <p className="">Intermediate</p>
-//             <p>
-//               As a passionate and detail-oriented Frontend Developer, I
-//               specialize in crafting visually stunning and highly responsive
-//               websites....
-//             </p>
-//             <a href="#" className="text-white mt-4 inline-block">
-//               Learn more
-//             </a>
-//           </div>
-//           <div className="bg-gray-800 p-10 rounded-lg transition-all transform hover:bg-pink-500 hover:translate-y-[-10px]">
-//             <i className="fa-solid fa-crop text-4xl mb-6"></i>
-//             <h2 className="text-2xl font-semibold mb-4">UI/UX Design</h2>
-//             <p className="">beginner</p>
-//             <p>
-//               Crafting intuitive and visually appealing user interfaces that
-//               enhance the user experience, ensuring a seamless journey from
-//               start to finish....
-//             </p>
-//             <a href="#" className="text-white mt-4 inline-block">
-//               Learn more
-//             </a>
-//           </div>
-//           <div className="bg-gray-800 p-10 rounded-lg transition-all transform hover:bg-pink-500 hover:translate-y-[-10px]">
-//             <i className="fa-brands fa-app-store text-4xl mb-6"></i>
-//             <h2 className="text-2xl font-semibold mb-4">Backend Developer</h2>
-//             <p className="">Beginner</p>
-//             <p>
-//               Building robust and scalable server-side applications that power
-//               seamless user experiences and ensure system reliability....
-//             </p>
-//             <a href="#" className="text-white mt-4 inline-block">
-//               Learn more
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Services;
-
-
 import React from "react";
 
 const Service = () => {
   return (
-    <section className="mt-20 experience-section text-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-8">
-        Explore My <span className="text-blue-500">Experience</span>
+    <section className="mt-20  experience-section text-center px-4 md:px-10 lg:px-20">
+      <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8">
+        Explore My <span className="text-yellow-500">Experience</span>
       </h1>
-      <div className="grid grid-cols-1 mt-20 md:grid-cols-2 gap-8">
-        {" "}
-        <div className="p-6 border-x-4 border-y-4 border-black  ml-20  px-20 bg-white rounded-[30px] shadow-md">
-          {" "}
-          <h2 className="text-2xl  font-semibold text-gray-800 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8  mt-12">
+        {/* Frontend Developer Section */}
+        <div className="p-6  border-x-4 border-y-4 border-black bg-white rounded-[30px] shadow-md">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Frontend Developer
-          </h2>{" "}
-          <ul className="py-10  font-semibold text-[20px] space-y-4">
+          </h2>
+          <ul className="py-6 font-semibold text-lg sm:text-xl space-y-4">
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">HTML</span>       {" "}
+                <span className="text-black">HTML</span>
               </div>
-              <span className=" text-green-600">Experienced</span>
+              <span className="text-green-600">Experienced</span>
             </li>
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">CSS</span>       {" "}
+                <span className="text-black">CSS</span>
               </div>
-              <span className=" text-green-600">Experienced</span>
+              <span className="text-green-600">Experienced</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-                   {" "}
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">JAVASCRIPT</span>       {" "}
+                <span className="text-black">JavaScript</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">React.js</span>       {" "}
+                <span className="text-black">React.js</span>
               </div>
-              <span className=" text-green-600">Experienced</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-                 {" "}
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">Tailwind CSS</span>       {" "}
+                <span className="text-black">Tailwind CSS</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                 {" "}
           </ul>
-             {" "}
         </div>
-           {" "}
-        <div className="p-6 border-x-4 border-y-4 border-black  mr-20  px-20 bg-white rounded-[30px] shadow-md">
-               {" "}
+
+        {/* Tools & Frameworks Section */}
+        <div className="p-6 border-x-4 border-y-4 border-black bg-white rounded-[30px] shadow-md">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Tools & Frameworks
           </h2>
-               {" "}
-          <ul className="py-10 text-[20px] font-semibold space-y-4">
+          <ul className="py-6 font-semibold text-lg sm:text-xl space-y-4">
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                <span className="text-black">Git & GitHub</span>{" "}
+                <span className="text-black">Git & GitHub</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">Material-UI</span>       {" "}
+                <span className="text-black">Material-UI</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">Express</span>       {" "}
+                <span className="text-black">Express</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">Vs Code</span>       {" "}
+                <span className="text-black">Vs Code</span>
               </div>
-              <span className=" text-green-600">Experienced</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                   
             <li className="flex items-center justify-between">
-              <div className="flex gap-2">
+              <div className="flex items-center gap-2">
                 <img
-                  className="h-8 rounded-full"
-                  src="src/assets/checkmark.png"
+                  className="h-6 sm:h-8 rounded-full"
+                  src="src/assets/portfolioImage/checkmark.png"
                   alt=""
                 />
-                        <span className="text-black">Node.js</span>       {" "}
+                <span className="text-black">Node.js</span>
               </div>
-              <span className=" text-yellow-500">Intermediate</span>       
+              <span className="text-yellow-500">Intermediate</span>
             </li>
-                 {" "}
           </ul>
-             {" "}
         </div>
-           
       </div>
-       {" "}
     </section>
   );
 };
 
 export default Service;
-

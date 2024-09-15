@@ -14,7 +14,8 @@ function Portfolio() {
     const handleMovieLink2 = (movie) => {
         window.open("http://localhost:5177/", "_blank");
         };
-       
+  
+
     // handle movie website link
     const handleMovieLink3 = (movie) => {
         window.open(
@@ -29,9 +30,9 @@ function Portfolio() {
         <div className="work-list grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
           <div onClick={handleMovieLink1} className="work">
             <img
-              src="src/assets/portfolioImage/work-1.png"
+              src="src/assets/portfolioImage/Screenshot 2024-09-13 100027.png"
               alt="work 1"
-              className="rounded-lg"
+              className="rounded-lg h-[470px]"
             />
             <div className="layer">
               <h3 className="text-2xl font-bold text-white">Movie Website</h3>

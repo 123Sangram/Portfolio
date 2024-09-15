@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import sangram from "../assets/portfolioImage/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg";
 
 function Header() {
   return (
@@ -16,39 +17,35 @@ function Header() {
           <img
             src="src/assets/portfolioImage/sangram-high-resolution-logo-white.png"
             alt="logo"
-            className="w-36 transition-transform transform hover:scale-110"
+            className="w-24 sm:w-36 transition-transform transform hover:scale-110"
           />
-          <ul className="flex space-x-6 text-white">
-            {["Home", "About", "Portfolio", "Contact"].map(
-              (item) => (
-                <li key={item}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
-                    className="relative after:content-[''] after:w-0 after:h-[3px] after:bg-pink-500 after:absolute after:left-0 after:bottom-[-6px] hover:after:w-full after:transition-all"
-                  >
-                    {item}
-                  </a>
-                </li>
-              )
-            )}
+          <ul className="hidden sm:flex space-x-6 text-white">
+            {["Home", "About", "Portfolio", "Contact"].map((item) => (
+              <li key={item}>
+                <a
+                  href={`#${item.toLowerCase()}`}
+                  className="relative after:content-[''] after:w-0 after:h-[3px] after:bg-pink-500 after:absolute after:left-0 after:bottom-[-6px] hover:after:w-full after:transition-all"
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
-        <div className=' ml-10 mr-20 flex justify-around mt-[-60px] '>
-          {/* <div>
-            <h1>hii i'm sangram singh</h1>
-          </div> */}
-          <div className="header-text   text-center text-2xl">
+
+        {/* Centering the content vertically */}
+        <div className="flex flex-col mt-32 lg:flex-row items-center justify-center h-full">
+          <div className="header-text text-center mt-[-10px] lg:text-left">
             <motion.p
-              className="text-white"
+              className="text-white text-lg sm:text-2xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
               Frontend Developer
             </motion.p>
-            {/* part */}
             <motion.h1
-              className="text-5xl mt-5 text-white"
+              className="text-3xl sm:text-5xl mt-3 sm:mt-5 text-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
@@ -57,11 +54,17 @@ function Header() {
               Singh From India
             </motion.h1>
           </div>
-          <div className='rounded-full mt-60'>
-            <img className='rounded-full h-80 w-80' src="src/assets/portfolioImage/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg" alt="" />
+          <div className="flex justify-center lg:justify-end mt-10 lg:mt-0 lg:ml-10">
+            <img
+              className="rounded-full h-48 w-48 sm:h-60 sm:w-60 lg:h-80 lg:w-80"
+              src="src/assets/portfolioImage/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg"
+              alt="Sangram's Portfolio"
+            />
           </div>
         </div>
+
         <div className="text-center mt-10">
+          {/* Optional button */}
           {/* <a
             href="#portfolio"
             className="inline-block bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-pink-600 transition-transform transform hover:scale-105"
