@@ -11,7 +11,7 @@ const Service = () => {
         {/* Frontend Developer Section */}
         <div className="p-6  border-x-4 border-y-4 border-black bg-white rounded-[30px] shadow-md">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Frontend Developer
+           Backend Developer
           </h2>
           <ul className="py-6 font-semibold text-lg sm:text-xl space-y-4">
             <li className="flex items-center justify-between">
@@ -96,7 +96,7 @@ const Service = () => {
                   src={checkmark}
                   alt=""
                 />
-                <span className="text-black">Material-UI</span>
+                <span className="text-black">MongoDB</span>
               </div>
               <span className="text-yellow-500">Intermediate</span>
             </li>
