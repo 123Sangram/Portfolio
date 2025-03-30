@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import sangram from '../assets/sangram-high-resolution-logo-white.png';
-import whatsapp from '../assets/WhatsApp Image 2024-08-24 at 10.04.47_52f57d61 porfolio.jpg'
+import whatsapp from '../sangram image.jpg'
 function Header() {
   return (
     <div
@@ -42,7 +42,7 @@ function Header() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-             Backend Developer
+             Fullstack developer
             </motion.p>
             <motion.h1
               className="text-3xl sm:text-5xl mt-3 sm:mt-5 text-white"
