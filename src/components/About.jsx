@@ -35,7 +35,11 @@ const About = () => {
                 <h3 className="text-xl font-semibold">Experience</h3>
               </div>
               <p className="text-gray-600 mt-2">
+<<<<<<< HEAD
                 1+ years Backend development
+=======
+                1+ years fullstack development experience
+>>>>>>> 03dffa2 (multiple  message)
               </p>
             </div>
 

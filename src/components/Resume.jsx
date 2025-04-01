@@ -48,15 +48,17 @@ const Resume = () => {
             <div className="section">
               <div>
                 <p>
-                  Enthusiastic and motivated 3rd-year Computer Science student
-                  pursuing a B.Tech degree. Possesses a solid foundation in
-                  programming, algorithms, and data structures, with hands-on
-                  experience in various coding projects and coursework. Eager to
-                  apply academic knowledge to real-world challenges and gain
-                  practical experience in software development, problem-solving,
-                  and technology innovation. Strong communicator and team player
-                  with a proactive attitude towards learning and growth in the
-                  field of computer science.
+                  Here’s a refined and polished version of your text with a
+                  stronger and more cohesive flow: Driven Frontend Developer I
+                  am a passionate 3rd-year Computer Science student pursuing a
+                  B.Tech degree, with a strong focus on creating intuitive,
+                  responsive, and visually captivating user interfaces. My
+                  expertise in frontend technologies such as HTML, CSS,
+                  JavaScript, and React.js allows me to design seamless digital
+                  experiences that prioritize both functionality and aesthetics.
+                  Through various hands-on projects, I have honed my technical
+                  skills while blending creativity to solve real-world
+                  challenges.
                 </p>
               </div>
               <h2>Education</h2>
