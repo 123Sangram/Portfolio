@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import sangram from '../assets/sangram-high-resolution-logo-white.png';
-import whatsapp from '../sangram image.jpg'
+// import whatsapp from '../sangram image.jpg'
 function Header() {
   return (
     <div
