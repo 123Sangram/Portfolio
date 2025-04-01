@@ -34,9 +34,13 @@ const About = () => {
                 </span>{" "}
                 <h3 className="text-xl font-semibold">Experience</h3>
               </div>
-              <p className="text-gray-600 mt-2">
-                1+ years FullStack development
+                        <p className="text-gray-600 mt-2">
+                1+ years Frontend development
               </p>
+              <p className="text-gray-600 mt-2">
+                Backend development
+              </p>
+              
             </div>
 
             {/* Education section */}
