@@ -42,7 +42,7 @@ function Header() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-             Fullstack developer
+             FullStack developer
             </motion.p>
             <motion.h1
               className="text-3xl sm:text-5xl mt-3 sm:mt-5 text-white"
