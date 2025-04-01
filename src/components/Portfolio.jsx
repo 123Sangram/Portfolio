@@ -1,7 +1,7 @@
 import React from "react";
 import pic1 from '../assets/Screenshot 2024-09-13 100027.png'
 import pic2 from "../assets/Screenshot 2024-09-05 141053.png";
-import pic3 from "../assets/Screenshot 2024-09-05 142642.png";
+import pic3 from "../assets/Screenshot 2025-04-01 224608.png";
 function Portfolio() {
     // handle movie website link
     const handleMovieLink1 = (movie) => {
@@ -14,14 +14,14 @@ function Portfolio() {
       
     // handle movie website link
     const handleMovieLink2 = (movie) => {
-        window.open("http://localhost:5177/", "_blank");
+        window.open("https://my-fullstack-app-67.onrender.com/frontpage");
         };
   
 
     // handle movie website link
     const handleMovieLink3 = (movie) => {
         window.open(
-          "https://66daf92bf9a7e5779bc26636--coruscating-brigadeiros-e8d823.netlify.app/",
+          "https://e-commerse-olive.vercel.app/",
           "_blank"
         );
         };
