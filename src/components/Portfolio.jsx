@@ -13,7 +13,7 @@ function Portfolio() {
   };
 
   const handleMovieLink2 = () => {
-    window.open("https://my-fullstack-app-67.onrender.com");
+    window.open("https://my-fullstack-app-67.onrender.com/frontpage");
   };
 
   const handleMovieLink3 = () => {
