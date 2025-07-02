@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from "../assets/Screenshot 2024-09-13 100027.png";
+import pic1 from "../assets/Screenshot 2025-07-02 210921.png";
 import pic2 from "../assets/Screenshot 2024-09-05 141053.png";
 import pic3 from "../assets/Screenshot 2025-04-01 224608.png";
 import { motion } from "framer-motion";
