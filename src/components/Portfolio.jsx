@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Portfolio() {
   const handleMovieLink1 = () => {
     window.open(
-      "https://66db02c7d9eea48a4e89f818--lucent-stardust-25f149.netlify.app//",
+      "https://github.com/123Sangram/doctor",
       "_blank"
     );
   };
