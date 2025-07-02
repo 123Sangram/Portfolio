@@ -47,11 +47,11 @@ function Portfolio() {
           {[
             {
               img: pic1,
-              title: "Movie Website",
+              title: "Doctor Appointment",
               description: [
-                "Fetches data from TMDB API.",
-                "Responsive and clean UI with search functionality.",
-                "React functional components and hooks used.",
+                "Book and manage appointments easily.",
+                "Responsive UI with doctor search and filters.",
+                "Built with React hooks and functional components.",
               ],
               handler: handleMovieLink1,
             },
