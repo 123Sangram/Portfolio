@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Portfolio() {
   const handleMovieLink1 = () => {
     window.open(
-      "https://github.com/123Sangram/doctor",
+      "https://doctor-appointment-clientside-2vdw.onrender.com/",
       "_blank"
     );
   };
