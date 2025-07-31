@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import resume from "../assets/sangram fullstack.pdf";
+import resume from "../assets/Sangram-Resume1.pdf.pdf";
 
 import { SiLeetcode } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
